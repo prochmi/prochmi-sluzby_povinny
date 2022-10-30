@@ -1,0 +1,174 @@
+html { 
+    box-sizing: border-box; 
+    }
+*, ::after, ::before { box-sizing: inherit; }
+
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #8B8B8B;
+    background-color: #FAFAFA;
+
+}
+
+
+
+.obrazek {
+    margin: 0 auto;
+    width: 400px;
+    height: 332px;
+    margin-top: 60px;
+}
+
+h1 {
+    margin: 0 auto;
+    font-size: 28px;
+    margin-top: 39.5px;
+    text-align: center;
+    color: #000000;
+}
+
+.cara {
+    border: 2px solid #407BFF;
+    width: 60px;
+    margin: 0 auto;
+    margin-top: 10px ;
+}
+
+.text {
+    max-width: 460px;
+    text-align: center;
+    margin: 0 auto;  
+    margin-top: 30px;
+}
+
+a {
+    text-decoration: none;
+    margin: 0 auto;
+}
+
+.a {
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 30px;
+}
+
+
+.prvni {
+    color: #FFFFFF;
+    font-size: 14px;
+    padding: 11px 30px;
+    background-color: #407BFF;
+    border-radius: 20px;
+    margin: 0 auto;
+    margin: 30px auto 10px auto;
+  
+}
+
+.druhy {
+    color: #FFFFFF;
+    background-color: #8B8B8B;
+    border-radius: 20px;
+    font-size: 14px;
+    padding: 10px 30px;
+    margin: 10px auto 0px 0px;
+}
+
+.sluzby {
+    margin: 0 auto;
+    margin-top: 70px;
+    text-align: center;
+
+}
+
+h2 {
+    font-size: 16px;
+    color: #000000;
+    
+}
+
+.uprava {
+    margin-top: 15px;
+}
+
+button {
+ display: flex;
+ margin: 0 auto;    
+ margin-bottom: 15px;
+ justify-content: space-around;
+ padding: 30px 20px 20px;
+ font-size: 13px;
+ border-radius: 10px ;
+ border: 0px;
+ background-color: #FFFFFF;
+ box-shadow:  0px 4px 6px #407BFF1F;
+
+}
+
+
+li {
+display: flex;
+list-style-type: none;
+margin-bottom: 15px;
+justify-content: space-around;
+border-radius: 10px;
+box-shadow:  0px 4px 6px #407BFF1F;
+background-color: #FFFFFF;
+padding: 30px 20px 20px ;
+font-size: 13px;
+
+}
+
+.seznam {
+    margin: 0 auto;
+    margin-top: 30px;
+    max-width: 460px;
+    padding-left: 0;
+}
+
+a {
+    color: #8B8B8B;
+}
+
+.namiste {
+    margin-top: 80px;
+
+}
+
+.konec {
+    margin-bottom: 60px;
+}
+
+
+@media screen and (min-width: 640px){
+    .text {
+        max-width: 550px; 
+    }
+
+    .tabulka {
+        display: flex;
+    
+    }
+
+    ul {
+        display: flex;
+        grid: 20px;
+        flex: 1 0 calc(100% / 3);
+
+        
+    }
+    li {
+        justify-content: none;
+    }
+
+    
+
+}
+
+
+@media screen and (min-width: 1100px) {
+
+
+}
+
+
