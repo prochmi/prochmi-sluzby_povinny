@@ -11,6 +11,10 @@ body {
 
 }
 
+header {
+    margin: 0 auto;
+}
+
 
 
 .obrazek {
@@ -62,7 +66,9 @@ a {
     border-radius: 20px;
     margin: 0 auto;
     margin: 30px auto 10px auto;
-  
+    display: block;
+    text-align: center;
+    width: 40%;
 }
 
 .druhy {
@@ -72,6 +78,10 @@ a {
     font-size: 14px;
     padding: 10px 30px;
     margin: 10px auto 0px 0px;
+    display: block;
+    text-align: center;
+    width: 40%;
+    margin: 0 auto;
 }
 
 .sluzby {
@@ -129,14 +139,26 @@ a {
 }
 
 
+
+
+
 @media screen and (min-width: 640px){
     .text {
         max-width: 550px; 
     }
 
-  
+    .prvni,
+    .druhy{
+        display: inline-block;
+        margin: 0 auto;
+        
 
+    }   
     
+    .posun {
+    margin: 30px;
+    margin: 30px auto;
+}
 
 }
 
