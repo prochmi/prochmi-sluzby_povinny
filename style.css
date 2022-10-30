@@ -91,24 +91,10 @@ h2 {
     margin-top: 15px;
 }
 
-button {
- display: flex;
- margin: 0 auto;    
- margin-bottom: 15px;
- justify-content: space-around;
- padding: 30px 20px 20px;
- font-size: 13px;
- border-radius: 10px ;
- border: 0px;
- background-color: #FFFFFF;
- box-shadow:  0px 4px 6px #407BFF1F;
-
-}
 
 
 li {
 display: flex;
-list-style-type: none;
 margin-bottom: 15px;
 justify-content: space-around;
 border-radius: 10px;
@@ -117,6 +103,9 @@ background-color: #FFFFFF;
 padding: 30px 20px 20px ;
 font-size: 13px;
 
+}
+img {
+    margin: 0 auto;
 }
 
 .seznam {
@@ -145,28 +134,15 @@ a {
         max-width: 550px; 
     }
 
-    .tabulka {
-        display: flex;
-    
-    }
-
-    ul {
-        display: flex;
-        grid: 20px;
-        flex: 1 0 calc(100% / 3);
-
-        
-    }
-   
+  
 
     
 
 }
 
 
-@media screen and (min-width: 1100px) {
 
 
-}
+
 
 
