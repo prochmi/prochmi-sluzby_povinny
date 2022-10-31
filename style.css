@@ -61,14 +61,16 @@ a {
 .prvni {
     color: #FFFFFF;
     font-size: 14px;
-    padding: 11px 30px;
     background-color: #407BFF;
     border-radius: 20px;
+    line-height: 40px;
     margin: 0 auto;
     margin: 30px auto 10px auto;
     display: block;
     text-align: center;
-    width: 40%;
+    width: 195px;
+    height: 40px;
+    font-weight: 400;
 }
 
 .druhy {
@@ -76,12 +78,13 @@ a {
     background-color: #8B8B8B;
     border-radius: 20px;
     font-size: 14px;
-    padding: 10px 30px;
-    margin: 10px auto 0px 0px;
+    margin: 10px auto 0px auto;
     display: block;
+    line-height: 40px;
     text-align: center;
-    width: 40%;
     margin: 0 auto;
+    width: 220px;
+    height: 40px;
 }
 
 .sluzby {
@@ -140,27 +143,34 @@ a {
 
 
 
-
-
 @media screen and (min-width: 640px){
     .text {
         max-width: 550px; 
     }
 
-    .prvni,
-    .druhy{
-        display: inline-block;
-        margin: 0 auto;
+
+  
+
+    .zkouska {
+        display: flex;
+        justify-content: center;
+        padding-top: 20px;
+        align-items: center;
+        gap: 20px;
         
+    }
 
-    }   
-    
-    .posun {
-    margin: 30px;
-    margin: 30px auto;
+    .prvni {
+        margin: 0;
+        
+    }
+
+    .druhy {
+        margin: 0;
+    }
 }
 
-}
+
 
 
 
