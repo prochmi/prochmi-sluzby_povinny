@@ -8,7 +8,12 @@ body {
     font-family: 'Montserrat', sans-serif;
     color: #8B8B8B;
     background-color: #FAFAFA;
+    max-width: 1040px;
 
+}
+
+main {
+    margin: 0 auto;
 }
 
 header {
@@ -202,8 +207,64 @@ a {
         margin-bottom: auto;
     }
 
+}
 
-    
+
+@media screen and (min-width: 1100px){
+   body{ 
+    max-width: 1040px;
+    margin: 0 auto;
+   }
+
+   header {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: flex-start;
+
+   }
+
+   .text,
+   h1 {
+    text-align: left;
+   }
+
+    .cara {
+    margin-left: 0;  
+   }
+
+   .zkouska {
+    justify-content: left;
+   }
+
+   .pocitacDva {
+    display: flex;
+    flex-direction: row-reverse;
+
+   }
+
+   .sluzby {
+    display: block;
+
+    flex-grow: 1;
+    flex-shrink: 0;
+   }
+
+   .error {
+    display: flex;
+    flex-direction: column;
+   }
+
+   .uprava {
+    display: block;
+    order: -1;
+   }
+
+ 
+ 
+ 
+
+ 
 
 }
 
