@@ -224,6 +224,15 @@ a {
 
    }
 
+   .cestovatel {
+    padding-bottom: 60px;
+   }
+
+   .pocitac {
+    max-width: 550px;
+
+   }
+
    .text,
    h1 {
     text-align: left;
@@ -240,16 +249,24 @@ a {
    .pocitacDva {
     display: flex;
     flex-direction: row-reverse;
+    align-items: center;
 
    }
+
+
 
    .sluzby {
     display: block;
-
+    flex-wrap: wrap;
     flex-grow: 1;
     flex-shrink: 0;
+    margin-top: auto;
+    margin-bottom: 20px;
+    text-align: left;
+
    }
 
+  
    .error {
     display: flex;
     flex-direction: column;
@@ -258,8 +275,33 @@ a {
    .uprava {
     display: block;
     order: -1;
+    max-width: 430px;
+    
    }
 
+   .mozna {
+    padding-left: 60px;
+   }
+
+
+
+   .positactri {
+    display: flex;
+    flex-direction: row;
+    padding-top: 80px;
+    align-items: center;
+    padding-bottom: 60px;
+    
+   }
+
+   .konec {
+    margin: auto;
+   }
+ 
+.moznaD {
+    padding-right: 60px;
+
+}
  
  
  
